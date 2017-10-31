@@ -1,0 +1,10 @@
+/* main css styling */
+html {
+  font-size: 18px;
+}
+
+
+/* main body styling */
+.main_banner {
+  background-image: url("../images/moto.jpeg");
+}
