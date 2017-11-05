@@ -70,6 +70,11 @@ h1 {
   align-items: center;
 }
 
+.nav_menu .menu_button {
+  padding: 0.75rem 0;
+  display: none;
+}
+
 .nav_menu nav {
   width: 960px;
   padding: 0.75rem 0;
@@ -151,4 +156,25 @@ footer {
 
 footer span {
   width: 960px;
+}
+
+/** MEDIA BREAKPOINT -- tablet **/
+@media only screen and (max-width: 1024px) {
+  /* navigation display */
+  .nav_menu .menu_button {
+    display: block;
+  }
+
+  .nav_menu nav {
+    display: none;
+  }
+
+  /* product display */
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
 }
